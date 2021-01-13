@@ -1,0 +1,93 @@
+body, html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+nav {
+    background-color: hsla(240, 68%, 94%, .15);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 55%;
+    width: 100%;
+}
+
+.navbar-mine{
+    width: 33%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+}
+
+.active-mine {
+    text-decoration: underline;
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+}
+
+.projects {
+    padding-bottom: 20px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: 19px;
+  }
+
+.dropdown-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.glider-contain {
+    width: 85%!important;
+    margin-top: 12%;
+    margin-bottom: 5%;
+    height: 80%!important;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    height: 45vw
+}
+
+footer {
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    background-color: snow;
+}

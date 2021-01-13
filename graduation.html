@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="resources/css/glider.min.css" rel="stylesheet" type="text/css" />
+        <link href="https:/stackpath.bootstrapcdn.com/font-awesome/7.7.0/css/font-awesome.min.css" rel="stylesheet" />        
+        <link href="./resources/css/graduation.css" rel="stylesheet" type="text/css" />
+    </head>
+    <nav>
+        <a href="./index.html"><h3>HGM Photography</h3></a>
+        <div class="navbar-mine">
+            <div class="dropdown">
+                <span class="projects nav-item active-mine">Projects</span>
+                <div class="dropdown-content">
+                    <a href="./graduation.html">Graduation</a>
+                    <a href="#">Adventure</a>
+                    <a href="#">Tennis</a>
+                </div>
+            </div>
+            <a class="nav-item" href="./about.html">About</a>
+            <a class="nav-item" href="./contact.html">Contact</a>
+        </div>
+    </nav>
+    <main>
+
+        <div class="glider-contain multiple">
+            <h2>Graduation</h2>
+            <button class="glider-prev">
+                <i class="fa fa-chevron-left"></i>
+            </button>
+
+            <div class="glider">
+                <div class="images">
+                    <img alt="" src="https://static.wixstatic.com/media/399ae2_33d9458a33fe4898b7bd1b74b35095cf~mv2_d_5184_3456_s_4_2.jpg/v1/fill/w_1155,h_769,fp_0.50_0.50,q_90/399ae2_33d9458a33fe4898b7bd1b74b35095cf~mv2_d_5184_3456_s_4_2.webp" />
+                </div>
+
+                <div class="images">
+                    <img alt="Chicago" src="https://static.wixstatic.com/media/399ae2_95cad75632664b338e32fdebdc969ccb~mv2_d_4302_3447_s_4_2.jpg/v1/fill/w_960,h_769,fp_0.50_0.50,q_90/399ae2_95cad75632664b338e32fdebdc969ccb~mv2_d_4302_3447_s_4_2.webp" />
+                </div>
+
+                <div class="images">
+                    <img alt="Chicago" src="https://static.wixstatic.com/media/399ae2_2aab4da467b147d8ac54111a83ccaa6e~mv2_d_4752_3456_s_4_2.jpg/v1/fill/w_1059,h_769,fp_0.50_0.50,q_90/399ae2_2aab4da467b147d8ac54111a83ccaa6e~mv2_d_4752_3456_s_4_2.webp" />
+                </div>
+            </div>
+
+            <button class="glider-next">
+                <i class="fa fa-chevron-right"></i>
+            </button>
+
+            <div id="dots" class="glider-dots"></div>
+        </div>
+       
+                
+               
+                
+               
+                
+
+        <script src="resources/glider.min.js"></script>
+
+        <script>
+            new Glider(document.querySelector('.glider'), {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                draggable: true,
+                dots: '#dots',
+                itemWidth: 50,
+                arrows: {
+                    prev: '.glider-prev',
+                    next: '.glider-next'
+                }
+            })
+        </script>
+    </main>
+    <footer>
+        HGM &#169
+    </footer>
+    <script src="/path/to/flickity.pkgd.min.js"></script>
+</html>
